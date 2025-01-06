@@ -17,8 +17,18 @@ Hint: Compare the first and last characters and recursively check the remaining 
 
 ----------------------------------------------------------------------------------------------------------
 
+Question 3: Find the Maximum Element in an Array Using Recursion
+Write a recursive function to find the maximum element in an array. The function should take the array and its size as input and return the maximum value.
 
-Question 3: Sum of Digits Using Recursion
+Example Input: [2, 5, 1, 8, 3]
+Example Output: Maximum element is 8
+Hint: Compare the first element with the maximum of the rest of the array.
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Question 4: Sum of Digits Using Recursion
 Write a recursive function to calculate the sum of the digits of a given positive integer.
 
 Example Input: n = 1234
@@ -29,10 +39,24 @@ Hint: Use the modulo operator % to extract the last digit and integer division /
 ----------------------------------------------------------------------------------------------------------
 
 
-Question 4: Print Fibonacci Series Up to N Terms
+Question 5: Print Fibonacci Series Up to N Terms
 Write a program to print the first n terms of the Fibonacci series using recursion and loops. The Fibonacci series is defined as:
 F(n)=F(n−1)+F(n−2),for n≥2
 
 Example Input: n = 7
 Example Output: 0 1 1 2 3 5 8
 Bonus: Optimize the solution by using a loop for generating the series and compare it with the recursive approach.
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Question 6: Sort a String in Lexicographical Order
+Write a program to sort the characters of a string in lexicographical (dictionary) order. Use an array of characters and implement a sorting algorithm like bubble sort.
+
+Example Input: "program"
+Example Output: "agmoprr"
+Hint: Treat the string as an array of characters.
+
+
+----------------------------------------------------------------------------------------------------------
